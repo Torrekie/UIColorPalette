@@ -2,6 +2,12 @@
 
 A comprehensive iOS developer tool for inspecting, analyzing, and generating compatibility code for iOS system colors. This app dynamically discovers all available UIColor system colors at runtime and provides detailed information about their variants across different trait collections.
 
+## Screenshot
+<div style="width:20%; margin: auto;" align="middle">
+<img width="25%" height="25%" alt="image" src="https://github.com/user-attachments/assets/b5ef7b0e-f451-472a-a8e5-351713b306f8" />
+<img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/205a5e4f-b3f8-4a1f-b1aa-d517125887e3" />
+</div>
+
 ## 🤖 AI-Generated Project
 
 **This project was entirely written by AI (Claude).** The code, documentation, build system, and architecture were generated through AI assistance to demonstrate automated iOS development capabilities. While the functionality is complete and fully operational, this serves as an example of AI-generated software development.
@@ -192,14 +198,6 @@ UIColorPalette/
 ├── Info.plist              # App configuration
 ├── AppIcon.png             # App icon
 └── UIColorPalette.entitlements # Entitlements for Mac Catalyst
-
-build/                      # Build output directory
-├── ios/                   # iOS device builds
-├── iossim/               # iOS Simulator builds
-└── catalyst/             # Mac Catalyst builds
-
-dist/                      # Distribution packages
-└── UIColorPalette.ipa    # iOS installation package
 ```
 
 ## Contributing
