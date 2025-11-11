@@ -258,8 +258,12 @@
 		68CFB6162EBA0BA9007ECAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AD_HOC_CODE_SIGNING_ALLOWED = YES;
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRES_TEAM = NO;
 				CODE_SIGN_ENTITLEMENTS = UIColorPalette/UIColorPalette.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -272,16 +276,23 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.torrekie.UIColorPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				ProvisioningProfileRequired = NO;
+				ProvisioningProfileSupported = NO;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WantsSigningEditing = NO;
 			};
 			name = Debug;
 		};
 		68CFB6172EBA0BA9007ECAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AD_HOC_CODE_SIGNING_ALLOWED = YES;
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRES_TEAM = NO;
 				CODE_SIGN_ENTITLEMENTS = UIColorPalette/UIColorPalette.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -294,8 +305,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.torrekie.UIColorPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				ProvisioningProfileRequired = NO;
+				ProvisioningProfileSupported = NO;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WantsSigningEditing = NO;
 			};
 			name = Release;
 		};

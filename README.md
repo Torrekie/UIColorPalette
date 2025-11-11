@@ -172,7 +172,7 @@ The app automatically generates iOS 12+ compatible functions like:
 
 ### Extended Dynamic Range (EDR)
 - Uses Metal layers on real devices for proper EDR display
-- Supports 10-bit color depth (BGR10A2Unorm pixel format)
+- Supports 16-bit float color depth (RGBA16Float pixel format)
 - Falls back to extended color space layers on Simulator
 - Visual indicators distinguish EDR colors from standard colors
 

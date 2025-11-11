@@ -815,7 +815,7 @@
         CAMetalLayer *metalLayer = [CAMetalLayer layer];
         metalLayer.device = self.metalDevice;
         metalLayer.wantsExtendedDynamicRangeContent = YES;
-        metalLayer.pixelFormat = MTLPixelFormatBGR10A2Unorm; // 10-bit per channel
+        metalLayer.pixelFormat = MTLPixelFormatRGBA16Float; // 16-bit float per channel
         metalLayer.opaque = NO;
         
         // Set appropriate color space
@@ -1130,7 +1130,7 @@
         [details appendString:@"Running on Simulator - EDR shown with extended colorspace (clamped)\n"];
 #else
         if (self.metalDevice) {
-            [details appendString:@"Using Metal layer with 10-bit BGR10A2 format\n"];
+            [details appendString:@"Using Metal layer with 16-bit float RGBA format\n"];
         } else {
             [details appendString:@"Metal device unavailable - using extended colorspace layer\n"];
         }
